@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <div className='bg-[var(--color-primary)]'>
+    <div className='bg-(--color-primary) min-h-screen'>
       <Home/>
     </div>
     </>

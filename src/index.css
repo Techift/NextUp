@@ -2,10 +2,15 @@
 
 /* src/theme.css */
 :root {
-  --color-primary: #3b82f6;   /* blue-500 */
-  --color-secondary: #f59e0b; /* amber-500 */
+  --color-primary: #2d2f33;   /* blue-500 */
+  --color-secondary: #131211; /* amber-500 */
   --color-success: #22c55e;   /* green-500 */
   --color-danger: #ef4444;    /* red-500 */
   --color-neutral: #6b7280;   /* gray-500 */
+}
+
+@theme {
+  --color-border:var(--border)
+  --color-input:var(--input)
 }
 
