@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import Home from './components/Home'
 
 function App() {
 
   return (
     <>
-    <div>Hello</div>
+    <div className='bg-[var(--color-primary)]'>
+      <Home/>
+    </div>
     </>
   )
 }
