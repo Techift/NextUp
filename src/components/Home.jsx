@@ -31,11 +31,11 @@ const Home = () => {
         <div className="bg-(--color-secondary) ">
           <div className="col-span-2 flex flex-col gap-5">
             {/* Top section */}
-            <div className="bg-(--color-primary) rounded-2xl p-5 flex flex-col gap-3">
+            <div className="bg-(--color-primary) p-5 flex flex-col gap-3">
               <div className="text-white font-bold text-xl">NextUp</div>
               <div className="text-white font-bold text-6xl">Pure.</div>
               <div className="flex gap-3 items-center">
-                <img src="/img/clock.svg" alt="clock" className="h-20 w-20 bg-white rounded-full"/>
+                <img src="/img/clock.svg" alt="clock" className="h-15 w-15 bg-white rounded-full"/>
               <div className="text-white font-bold text-6xl">Focus.</div>
               </div>
               <div className="text-white font-bold text-6xl">Energy.</div>
@@ -44,8 +44,8 @@ const Home = () => {
             </div>
 
             {/* Bottom section */}
-            <div className="bg-(--color-primary) rounded-2xl p-5 flex items-center justify-center">
-              <div className="bg-(--color-primary) h-40 w-full rounded-xl flex items-center justify-center text-orange-500 font-semibold">
+            <div className="bg-(--color-primary) p-5 flex items-center justify-center">
+              <div className="bg-(--color-primary) h-40 w-full flex items-center justify-center text-orange-500 font-semibold">
                 Lottie animation
               </div>
             </div>
@@ -54,7 +54,7 @@ const Home = () => {
         {/* Main Content Area */}
         <div className="col-span-3 flex flex-col gap-5">
           {/* Top bar */}
-          <div className="bg-(--color-primary) rounded-2xl p-5 flex justify-between">
+          <div className="bg-(--color-primary) p-5 flex justify-between">
             {/* Left buttons */}
             <div className="flex gap-3">
               <div className="text-white font-medium">Report</div>
@@ -69,7 +69,7 @@ const Home = () => {
           </div>
 
           {/* Big content area */}
-          <div className="bg-(--color-primary) flex-1 rounded-2xl"></div>
+          <div className="bg-(--color-primary) flex-1 "></div>
         </div>
       </div>
     </div>
